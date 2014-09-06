@@ -1,8 +1,10 @@
-AMPLIFY CODING ACTIVITIES
-
+//AMPLIFY CODING ACTIVITIES
 //Amplify sucks ass, so if you get code that works in eclipse but doesn't work in Amplify, feel free to Copy/Paste
 
-//Lesson 3 Activity 1
+
+//UNIT 1
+
+//Lesson 3 Coding Activity 1
 
 Scanner scan = new Scanner(System.in);
 String name;
@@ -12,7 +14,7 @@ name = scan.nextLine();
 System.out.println("Hi " + name + ", nice to see you.");
 
 
-//Lesson 3 Activity 2
+//Lesson 3 Coding Activity 2
 
 Scanner scan = new Scanner(System.in);
 String name1, name2, name3;
@@ -24,7 +26,7 @@ name3 = scan.nextLine();
 System.out.println(name3 +" " + name2 +" " + name1); 
 
 
-//Lesson 3 Activity 3
+//Lesson 3 Coding Activity 3
 
 Scanner scan = new Scanner(System.in);
 String name, adj;
@@ -39,8 +41,79 @@ System.out.println("My name is " + name + "." + " I am " + adj + ".");
 
 //Lesson 4 Activity 1
 
+const int x = 4;
 
 
 //Lesson 4 Activity 2
 
+Choose "You cannot store a double in an int variable."
+
+
 //Lesson 4 Activity 3
+
+Choose: "char, int, double, String"
+
+
+//Lesson 4 Activity 4
+
+Choose: "double"
+
+
+//Lesson 4 Activity 5
+
+'
+
+
+//Lesson 4 Activity 6
+
+Write: Scanner
+
+
+//Lesson 4 Activity 11
+
+Choose: "-2147483648" //this is called stack overflow. This is one number outside of int max range, so it flips to negative.
+
+
+//Lesson 4 Activity 12
+
+Choose: " and '
+
+
+//Lesson 4 Coding Activity 1
+
+Scanner scan = new Scanner(System.in);
+double num1, num2;
+
+System.out.println("Please enter two doubles.");
+num1 = scan.nextDouble();
+num2 = scan.nextDouble();
+
+System.out.println(num2 + " " + num1);
+
+
+//Lesson 4 Coding Activity 2
+
+Scanner scan = new Scanner(System.in);
+
+String name;
+int age, yearsLeft;
+int hundred = 100;
+
+System.out.println("Hi there. What is your name?");
+name = scan.nextLine();
+System.out.println("Hi " + name + ". How old are you?");
+age = scan.nextInt();
+yearsLeft = hundred - age;
+System.out.println(name + ", you will be 100 in " + yearsLeft + " years.");
+
+
+//Lesson 5 Activity 1
+
+
+
+
+
+
+
+
+
