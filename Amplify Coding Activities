@@ -12,7 +12,6 @@ System.out.println("What is your name?");
 name = scan.nextLine();
 System.out.println("Hi " + name + ", nice to see you.");
 
-
 //Lesson 3 Coding Activity 2
 
 Scanner scan = new Scanner(System.in);
@@ -23,7 +22,6 @@ name1 = scan.nextLine();
 name2 = scan.nextLine();
 name3 = scan.nextLine();
 System.out.println(name3 +" " + name2 +" " + name1); 
-
 
 //Lesson 3 Coding Activity 3
 
@@ -36,7 +34,6 @@ System.out.println("What adjective describes you?");
 adj = scan.nextLine();
 
 System.out.println("My name is " + name + "." + " I am " + adj + "."); 
-
 
 //Lesson 4 Activity 1
 
@@ -66,11 +63,9 @@ Write: Scanner
 
 Choose: "-2147483648" //this is called a stack overflow. This is one number outside of int max range, so it flips to negative.
 
-
 //Lesson 4 Activity 12
 
 Choose: " and '
-
 
 //Lesson 4 Coding Activity 1
 
@@ -82,7 +77,6 @@ num1 = scan.nextDouble();
 num2 = scan.nextDouble();
 
 System.out.println(num2 + " " + num1);
-
 
 //Lesson 4 Coding Activity 2
 
@@ -98,7 +92,6 @@ System.out.println("Hi " + name + ". How old are you?");
 age = scan.nextInt();
 yearsLeft = hundred - age;
 System.out.println(name + ", you will be 100 in " + yearsLeft + " years.");
-
 
 //Lesson 5 Activity 1
 
@@ -122,10 +115,57 @@ Choose: x + 1
 
 //Lesson 5 Coding Activity 1
 
+Scanner scan = new Scanner(System.in);
+double x, y, z;
+
+System.out.println("Please enter two decimals.");
+x = scan.nextDouble();
+y = scan.nextDouble();
+z = x - y;
+System.out.println("The difference of your two decimals is " + z + "\n");
+
+//Lesson 5 Coding Activity 2
+
+Scanner scan = new Scanner(System.in);
+int num1, num2, num3, num4, sum;
+
+System.out.println("Please enter four integers.");
+num1 = scan.nextInt();
+num2 = scan.nextInt();
+num3 = scan.nextInt();
+num4 = scan.nextInt();
+
+sum = num1 + num2 + num3 + num4;
+System.out.println(sum);
 
 
+//Lesson 5 Coding Activity 3
 
+Scanner scan = new Scanner(System.in);
+double rad, circ, area;
+double pi = 3.14;
 
+System.out.println("Enter a radius:");
+rad = scan.nextInt();
+
+circ = pi * 2 * rad;
+area = pi * rad * rad;
+System.out.println("Circumference: " + circ);
+System.out.println("Area: " + area);
+
+//Lesson 5 Coding Activity 4
+
+Scanner scan = new Scanner(System.in);
+double max = 20;
+double price, newPrice;
+
+System.out.println("Enter a price:");
+price = scan.nextDouble();
+
+newPrice = max - price;
+System.out.println("Change from $20: $" + newPrice);
+
+//Lesson 6 coming soon....
 
 
 
