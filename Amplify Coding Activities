@@ -3,7 +3,7 @@
 
 //UNIT 1:
 
-//Lesson 3 Coding Activity 1
+//LESSON 3 CODING ACTIVITY 1
 
 Scanner scan = new Scanner(System.in);
 String name;
@@ -12,7 +12,7 @@ System.out.println("What is your name?");
 name = scan.nextLine();
 System.out.println("Hi " + name + ", nice to see you.");
 
-//Lesson 3 Coding Activity 2
+//LESSON 3 CODING ACTIVITY 2
 
 Scanner scan = new Scanner(System.in);
 String name1, name2, name3;
@@ -23,7 +23,7 @@ name2 = scan.nextLine();
 name3 = scan.nextLine();
 System.out.println(name3 +" " + name2 +" " + name1); 
 
-//Lesson 3 Coding Activity 3
+//LESSON 3 CODING ACTIVITY 3
 
 Scanner scan = new Scanner(System.in);
 String name, adj;
@@ -35,39 +35,39 @@ adj = scan.nextLine();
 
 System.out.println("My name is " + name + "." + " I am " + adj + "."); 
 
-//Lesson 4 Activity 1
+//LESSON 4 ACTIVITY 1
 
 const int x = 4;
 
-//Lesson 4 Activity 2
+//LESSON 4 ACTIVITY 2
 
 Choose "You cannot store a double in an int variable."
 
-//Lesson 4 Activity 3
+//LESSON 4 ACTIVITY 3
 
 Choose: "char, int, double, String"
 
-//Lesson 4 Activity 4
+//LESSON 4 ACTIVITY 4
 
 Choose: "double"
 
-//Lesson 4 Activity 5
+//LESSON 4 ACTIVITY 5
 
 '
 
-//Lesson 4 Activity 6
+//LESSON 4 ACTIVITY 6
 
 Write: Scanner
 
-//Lesson 4 Activity 11
+//LESSON 4 ACTIVITY 11
 
 Choose: "-2147483648" //this is called a stack overflow. This is one number outside of int max range, so it flips to negative.
 
-//Lesson 4 Activity 12
+//LESSON 4 ACTIVITY 12
 
 Choose: " and '
 
-//Lesson 4 Coding Activity 1
+//LESSON 4 CODING ACTIVITY 1
 
 Scanner scan = new Scanner(System.in);
 double num1, num2;
@@ -78,7 +78,7 @@ num2 = scan.nextDouble();
 
 System.out.println(num2 + " " + num1);
 
-//Lesson 4 Coding Activity 2
+//LESSON 4 CODING ACTIVITY 2
 
 Scanner scan = new Scanner(System.in);
 
@@ -93,27 +93,27 @@ age = scan.nextInt();
 yearsLeft = hundred - age;
 System.out.println(name + ", you will be 100 in " + yearsLeft + " years.");
 
-//Lesson 5 Activity 1
+//LESSON 5 ACTIVITY 1
 
 Choose: x + 1
 
-//Lesson 5 Activity 2
+//LESSON 5 ACTIVITY 2
 
 13.5
 
-//Lesson 5 Activity 3
+//LESSON 5 ACTIVITY 3
 
 -15.0 //for some reason they say it's wrong if you put in -15... whatever fuck you Amplify.
 
-//Lesson 5 Activity 3
+//LESSON 5 ACTIVITY 4
 
 -2
 
-//Lesson 5 Activity 3
+//LESSON 5 ACTIVITY 5
 
 29
 
-//Lesson 5 Coding Activity 1
+//LESSON 5 CODING ACTIVITY 1
 
 Scanner scan = new Scanner(System.in);
 double x, y, z;
@@ -124,7 +124,7 @@ y = scan.nextDouble();
 z = x - y;
 System.out.println("The difference of your two decimals is " + z + "\n");
 
-//Lesson 5 Coding Activity 2
+//LESSON 5 CODING ACTIVITY 2
 
 Scanner scan = new Scanner(System.in);
 int num1, num2, num3, num4, sum;
@@ -139,7 +139,7 @@ sum = num1 + num2 + num3 + num4;
 System.out.println(sum);
 
 
-//Lesson 5 Coding Activity 3
+//LESSON 5 CODING ACTIVITY 3
 
 Scanner scan = new Scanner(System.in);
 double rad, circ, area;
@@ -153,7 +153,7 @@ area = pi * rad * rad;
 System.out.println("Circumference: " + circ);
 System.out.println("Area: " + area);
 
-//Lesson 5 Coding Activity 4
+//LESSON 5 CODING ACTIVITY 4
 
 Scanner scan = new Scanner(System.in);
 double max = 20;
@@ -164,6 +164,7 @@ price = scan.nextDouble();
 
 newPrice = max - price;
 System.out.println("Change from $20: $" + newPrice);
+
 
 //Lesson 6 coming soon....
 
