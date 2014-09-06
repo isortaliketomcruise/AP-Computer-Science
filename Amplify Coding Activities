@@ -3,15 +3,22 @@ AMPLIFY CODING ACTIVITIES
 //Lesson 3 Activity 1
 
 Scanner scan = new Scanner(System.in);
+String name;
+
+System.out.println("What is your name?");
+name = scan.nextLine();
+System.out.println("Hi " + name + ", nice to see you.");
+
+
+//Lesson 3 Activity 2
+
+Scanner scan = new Scanner(System.in);
 
 System.out.println("Please enter three names: ");
 String name1 = scan.nextLine();
 String name2 = scan.nextLine();
 String name3 = scan.nextLine();
 System.out.println(name3 + name2 + name1); 
-
-//Lesson 3 Activity 2
-
 
 
 
