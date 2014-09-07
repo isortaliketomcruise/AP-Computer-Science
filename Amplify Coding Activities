@@ -5,7 +5,7 @@
 
 //LESSON 3 CODING ACTIVITY 1
 
-Scanner scan = new Scanner(System.in);
+Scanner scan = new Scanner(System.in); //initialize var and scanner object
 String name;
 
 System.out.println("What is your name?");
@@ -14,7 +14,7 @@ System.out.println("Hi " + name + ", nice to see you.");
 
 //LESSON 3 CODING ACTIVITY 2
 
-Scanner scan = new Scanner(System.in);
+Scanner scan = new Scanner(System.in); //initialize vars and scanner object
 String name1, name2, name3;
 
 System.out.println("Please enter three names, all on different lines: ");
@@ -25,7 +25,7 @@ System.out.println(name3 +" " + name2 +" " + name1);
 
 //LESSON 3 CODING ACTIVITY 3
 
-Scanner scan = new Scanner(System.in);
+Scanner scan = new Scanner(System.in); //initialize vars and scanner object
 String name, adj;
 
 System.out.println("Hi there. What is your name?");
@@ -45,19 +45,19 @@ Choose "You cannot store a double in an int variable."
 
 //LESSON 4 ACTIVITY 3
 
-Choose: "char, int, double, String"
+Choose: "char, int, double, String" //Strings have a near infinite data range, whereas chars have the smallest. Doubles are bigger than ints.
 
 //LESSON 4 ACTIVITY 4
 
-Choose: "double"
+Choose: "double" //doubles have the largest data range
 
 //LESSON 4 ACTIVITY 5
 
-'
+' //chars use these in the way that Strings use ""
 
 //LESSON 4 ACTIVITY 6
 
-Write: Scanner
+Write: Scanner 
 
 //LESSON 4 ACTIVITY 11
 
@@ -69,7 +69,7 @@ Choose: " and '
 
 //LESSON 4 CODING ACTIVITY 1
 
-Scanner scan = new Scanner(System.in);
+Scanner scan = new Scanner(System.in); //initialize vars and scanner object
 double num1, num2;
 
 System.out.println("Please enter two doubles.");
@@ -80,9 +80,9 @@ System.out.println(num2 + " " + num1);
 
 //LESSON 4 CODING ACTIVITY 2
 
-Scanner scan = new Scanner(System.in);
+Scanner scan = new Scanner(System.in); //initialize scanner object
 
-String name;
+String name; //initialize vars
 int age, yearsLeft;
 int hundred = 100;
 
@@ -115,7 +115,7 @@ Choose: x + 1
 
 //LESSON 5 CODING ACTIVITY 1
 
-Scanner scan = new Scanner(System.in);
+Scanner scan = new Scanner(System.in); //initialize vars and scanner object
 double x, y, z;
 
 System.out.println("Please enter two decimals.");
@@ -126,7 +126,7 @@ System.out.println("The difference of your two decimals is " + z + "\n");
 
 //LESSON 5 CODING ACTIVITY 2
 
-Scanner scan = new Scanner(System.in);
+Scanner scan = new Scanner(System.in); //initialize vars and scanner object
 int num1, num2, num3, num4, sum;
 
 System.out.println("Please enter four integers.");
@@ -143,7 +143,7 @@ System.out.println(sum);
 
 Scanner scan = new Scanner(System.in);
 double rad, circ, area;
-double pi = 3.14;
+double pi = 3.14; //initialize vars and scanner object
 
 System.out.println("Enter a radius:");
 rad = scan.nextInt();
@@ -157,7 +157,7 @@ System.out.println("Area: " + area);
 
 Scanner scan = new Scanner(System.in);
 double max = 20;
-double price, newPrice;
+double price, newPrice; //initialize vars and scanner object
 
 System.out.println("Enter a price:");
 price = scan.nextDouble();
